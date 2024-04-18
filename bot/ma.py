@@ -17,7 +17,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS users
               pasw TEXT,
               mail TEXT)''')
 
-bot_token = '6882311228:AAE4MGciSlARA1Gt8Idm4aDAZgqlU98u4Pc'
+bot_token = 'tok'
 bot = telebot.TeleBot(bot_token)
 
 auth_completed = False
